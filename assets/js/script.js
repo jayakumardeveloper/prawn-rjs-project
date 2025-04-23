@@ -1107,12 +1107,13 @@
             // Create a new anchor tag using the current link
             const link = links[currentIndex];
             const newLink = $('<a>', {
-                class: 'elem col-md-3 col-11 mx-auto',
+                class: 'elem col-md-3 col-11 mx-auto wow animate__fadeInUp',
                 href: link.href,
                 title: link.title,
                 'data-lcl-txt': link.dataTxt,
                 'data-lcl-author': link.dataAuthor,
                 'data-lcl-thumb': link.dataThumb,
+                'data-wow-duration': '1s',
             }).append($('<span>', {
                 style: `background-image: url(${link.backgroundImage});`
             }));
