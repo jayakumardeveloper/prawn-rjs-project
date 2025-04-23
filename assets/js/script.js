@@ -343,7 +343,7 @@
     -------------------------------------------*/
     function preloader() {
         if ($('.preloader').length) {
-            $('.preloader').delay(200).fadeOut(500, function () {
+            $('.preloader').delay(100).fadeOut(500, function () {
                 //active wow
                 wow.init();
             });
