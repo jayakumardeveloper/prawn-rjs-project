@@ -2095,6 +2095,16 @@ span.rjs-border::before {
     top: 16px;
     right: 10px;
   }
+
+  .rjs-hero {
+    min-height: 700px;
+  }
+
+  .rjs-circle {
+    border-radius: 0;
+    top: 0px;
+    left: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2173,7 +2183,7 @@ span.rjs-border::before {
   }
 
   .bnb-site-header .header-right {
-    right: -30px;
+    right: 0px;
   }
 }
 
@@ -2980,7 +2990,7 @@ span.rjs-border::before {
   }
 
   .bnb-site-header .mobail-menu button {
-    background-color: #4B87A1;
+    background-color: #d51b36;
     width: 40px;
     height: 35px;
     border: 0;
@@ -3009,7 +3019,7 @@ span.rjs-border::before {
   }
 
   .bnb-site-header #navbar {
-    background: #243352;
+    background: #d51b36;
     display: block !important;
     width: 300px;
     height: 100%;
