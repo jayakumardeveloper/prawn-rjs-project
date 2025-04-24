@@ -12142,21 +12142,21 @@ span.rjs-border::before {
 }
 
 #lcl_nav_cmd .lcl_icon {
-  color: #4B87A1 !important;
+  color: #d51b36 !important;
 }
 
 .lcl_icon:not(.lcl_counter):after {
-  background: #4B87A1 !important;
+  background: #d51b36 !important;
 }
 
 #lcl_title {
-  color: #4B87A1 !important;
+  color: #d51b36 !important;
 }
 
 .lcl_force_txt_over #lcl_txt .lcl_txt_border,
 .lcl_txt_over #lcl_txt .lcl_txt_border,
 .lcl_txt_under #lcl_txt .lcl_txt_border {
-  border-bottom: 1px dashed #4B87A1;
+  border-bottom: 1px dashed #d51b36;
   margin-bottom: 10px;
   padding-bottom: 12px;
 }
