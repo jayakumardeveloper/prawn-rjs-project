@@ -465,7 +465,7 @@ span.rjs-border::before {
   background: #F6EDEE;
   z-index: -1;
   border-radius: 75% 0% 0% 76% / 49% 25% 25% 49%;
-  top: -80px;
+  top: -70px;
   left: -30px;
 }
 
