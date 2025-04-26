@@ -473,6 +473,47 @@ span.rjs-border::before {
   background-color: #d51b36;
 }
 
+.rjs-nav-panel .nav-pills .nav-link {
+  border-radius: 0 20px 20px 0;
+  width: fit-content;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.rjs-nav-panel .nav-pills .nav-link .bi {
+  opacity: 0;
+  transform: translateX(-10px) scale(0);
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.rjs-nav-panel .nav-pills .nav-link.active,
+.rjs-nav-panel .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #d51b36;
+}
+
+.rjs-nav-panel .nav-pills .nav-link.active .bi,
+.rjs-nav-panel .nav-pills .show>.nav-link .bi,
+.rjs-nav-panel .nav-pills .nav-link:hover:not(.active) .bi {
+  opacity: 1;
+  transform: translateX(0) scale(1.05);
+}
+
+.rjs-nav-panel .nav-pills .nav-link:hover:not(.active) {
+  color: #d51b36;
+}
+
+.rjs-nav-panel .nav-link:focus-visible {
+  box-shadow: none;
+}
+
+.rjs-nav-panel .tab-pane img {
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+}
+
 /* .bnb-section-title span,
 .bnb-section-title-s2 span {
   text-transform: uppercase;
